@@ -1,0 +1,13 @@
+git init ---将一个目录做成一个Git仓库
+git add [filename] -----新增的修改放到“暂存库”
+git commit -m "message" ----把“暂存库”内的add提交到工作区
+git status  --------查看当前的提交状态
+git diff HEAD -- [filename]  ---------对比最新版本提交了什么内容
+git log -----------查看最近的版本提交
+git redlog ----------查看命令历史
+git checkout -- "filename"  ----------撤销提交的内容
+git reset --hard [版本ID] ------------版本回退
+git rm [filename] ------------删除文件
+git remote add origin git@github.com:[账户名]/[存储库].git  -------把本地仓库与GitHub仓库连接起来，做成远程仓库
+git push -u origin master ------------------把本地仓库的东西提交到远程GitHub仓库
+
