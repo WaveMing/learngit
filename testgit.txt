@@ -10,4 +10,8 @@ git reset --hard [版本ID] ------------版本回退
 git rm [filename] ------------删除文件
 git remote add origin git@github.com:[账户名]/[存储库].git  -------把本地仓库与GitHub仓库连接起来，做成远程仓库
 git push -u origin master ------------------把本地仓库的东西提交到远程GitHub仓库
+git clone git@github.com:[账户名]/[存储库].git -------克隆远程仓库到本地仓库中
+git branch [分支名] -------------创建一个分支
+git checkout [分支名] -----------切换到该分支
+git checkout -b [分支名] -------------创建与切换分支组合使用
 
